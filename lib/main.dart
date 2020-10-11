@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:xtools/DicePage.dart';
+import 'package:xtools/bmiPage.dart';
+import 'package:xtools/musicPage.dart';
+import 'package:xtools/quizPage.dart';
 
 void main() {
   runApp(XToolApp());
@@ -112,7 +115,10 @@ class XToolApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (BuildContext context) => HomePage(),
-        '/dice': (BuildContext context) => DicePage()
+        '/dice': (BuildContext context) => DicePage(),
+        '/music': (BuildContext context) => MusicPage(),
+        '/quiz': (BuildContext context) => QuizPage(),
+        '/bmi': (BuildContext context) => BMIPage(),
       },
     );
   }

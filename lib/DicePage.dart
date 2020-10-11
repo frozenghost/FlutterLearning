@@ -34,6 +34,23 @@ class _DiceContentState extends State<DiceContent> {
               child: Image.asset('images/dice_$rightDiceNumber.png'),
             ),
           ),
+          FlatButton(
+            color: Colors.teal,
+            textColor: Colors.white,
+            disabledColor: Colors.grey,
+            disabledTextColor: Colors.black,
+            padding: EdgeInsets.all(8.0),
+            onPressed: () {
+              Navigator.pushNamed(context, '/music');
+            },
+            child: Text(
+              "Go to music",
+              style: TextStyle(
+                fontFamily: 'Work Sans',
+                fontSize: 20.0,
+              ),
+            ),
+          ),
         ],
       ),
     );
