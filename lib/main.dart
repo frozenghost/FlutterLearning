@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:xtools/DicePage.dart';
 import 'package:xtools/bmiPage.dart';
+import 'package:xtools/bmiResultPage.dart';
 import 'package:xtools/musicPage.dart';
 import 'package:xtools/quizPage.dart';
 
